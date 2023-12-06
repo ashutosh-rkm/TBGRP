@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Ashutosh - Developer Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Ashutosh's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact me</a></li>
+            <li><a href="">LinkedIn</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          <p class="subtitle">HELLO</p>
+          My name is <span class="purple">Ashutosh</span>
+          <div>and I'm a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit GitHub</button>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="img\profile.jpg" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="img\work\html.png" alt="" />
+            <div class="vertical-title">
+              HTML Developer (Sept 2020- Dec 2020)
+            </div>
+            <div class="vertical-desc">
+              I worked as HTML developer for about 3 months in which I learned
+              about various things and also did about 4-5 projects.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="img\work\css.png" alt="" />
+            <div class="vertical-title">CSS Developer (Aug 2022- Nov 2022)</div>
+            <div class="vertical-desc">
+              I worked as CSS developer for about 3 months in which I learned
+              about various things.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="img\work\Javascript.png" alt="" />
+            <div class="vertical-title">
+              Javascript Developer (Jan 2023 - Mar 2023)
+            </div>
+            <div class="vertical-desc">
+              I worked as Javascript developer for about 2 months in which I
+              learned about various things and also did about 3-4 projects
+              related to JS.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="img\work\reactjs.png" alt="" />
+            <div class="vertical-title">
+              Reactjs Developer (Oct 2023 - Current)
+            </div>
+            <div class="vertical-desc">
+             I have just started working on reactjs and also working on 1-2 projects simultaneously.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="img\work\angular.png" alt="" />
+            <div class="vertical-title">
+              Angular Developer (Nov 2023 - Current)
+            </div>
+            <div class="vertical-desc">I'm Currently Working in this Field</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Ashutosh's Portfolio</h3>
+        </div>
+        <div class="social-icons">
+          <a href="#" class="icon" id="facebook"
+            ><img src="img\social\fb.png" alt="Facebook"
+          /></a>
+          <a href="#" class="icon" id="instagram"
+            ><img src="img\social\insta.png" alt="Instagram"
+          /></a>
+          <a href="#" class="icon" id="linkedin"
+            ><img src="img\social\link.png" alt="LinkedIn"
+          /></a>
+        </div>
+      </div>
+      <div class="footer-rights">
+        Copyright &#169; www.ashutoshsportfolio.com | 2023 All rights reserved.
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Front-end Developer."],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
